@@ -19,7 +19,7 @@ httpd = HTTPServer(("", 535353), Handler)\n\
 httpd.serve_forever()' > server.py
 
 # Expose the port the server listens on
-EXPOSE 535353
+EXPOSE 53535
 
 # Command to run the server
 CMD ["python3", "server.py"]
